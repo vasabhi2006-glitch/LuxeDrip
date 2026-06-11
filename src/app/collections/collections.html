@@ -1,0 +1,106 @@
+<section class="banner">
+
+    <div class="overlay">
+
+        <div class="content">
+
+            <p class="tag">
+                COLLECTION
+            </p>
+
+            <h1>
+                Timeless Essentials
+            </h1>
+
+            <p class="subtitle">
+                Discover our complete range of premium shirts crafted for every occasion.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="collection-section">
+
+    <div class="top-bar">
+
+        <h2>Our Collection</h2>
+
+        <p>{{products.length}} Products</p>
+
+    </div>
+
+    <div class="products">
+
+        @for(product of products; track product.name){
+
+        <div class="card">
+
+            <div class="image">
+
+                <img [src]="product.image">
+
+            </div>
+
+            <div class="details">
+
+                <h3>{{product.name}}</h3>
+
+                <p class="price">
+                    ₹{{product.price}}
+                </p>
+
+                <button routerLink="/product" class="view-btn">
+                    View Product
+                </button>
+
+            </div>
+
+        </div>
+
+        }
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-left">
+
+        <h2>LUXEDRIP</h2>
+
+        <p>
+            Minimal by design.<br>
+            Made to last.
+        </p>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p>Contact: luxedrip@gmail.com</p>
+
+        <p>
+
+            WhatsApp:
+
+            <a href="https://wa.me/918383978876">
+
+                +91 83839 78876
+
+            </a>
+
+        </p>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © 2026 LuxeDrip. All rights reserved.
+
+    </div>
+
+</footer>
