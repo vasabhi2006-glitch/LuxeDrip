@@ -196,7 +196,7 @@ nav a:hover {
   font-size: 20px;
 }
 
-.overlay span {
+.overlay a {
   font-size: 14px;
   color: #d6a25c;
 }
