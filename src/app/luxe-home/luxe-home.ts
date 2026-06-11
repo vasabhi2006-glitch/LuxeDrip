@@ -11,28 +11,28 @@ import { RouterLink } from "@angular/router";
 export class HomeComponent {
 
   products = [
-    { name: 'POLO Ralph lauren', price: 799, image: '/assets/White-POLO-RL.png' },
-    { name: 'Zippers', price: 999, image: '/assets/jacket2.png' },
-    { name: 'Classic T-Shirts', price: 950, image: '/assets/tshirt.png' },
-    { name: 'Levis Jeans', price: 799, image: '/assets/Jeans-levis.png' }
+    { name: 'POLO Ralph lauren', price: 799, image: 'assets/White-POLO-RL.png' },
+    { name: 'Zippers', price: 999, image: 'assets/jacket2.png' },
+    { name: 'Classic T-Shirts', price: 950, image: 'assets/tshirt.png' },
+    { name: 'Levis Jeans', price: 799, image: 'assets/Jeans-levis.png' }
   ];
 
   categories = [
     {
       title: 'Shirts',
-      image: '/assets/shirt-card.png'
+      image: 'assets/shirt-card.png'
     },
     {
       title: 'Bottoms',
-      image: '/assets/new-arrival.png'
+      image: 'assets/new-arrival.png'
     },
     {
       title: 'Premium ',
-      image: '/assets/premium.png'
+      image: 'assets/premium.png'
     },
     {
       title: 'New Arrivals',
-      image: '/assets/Jeans.png'
+      image: 'assets/Jeans.png'
     }
   ];
 
